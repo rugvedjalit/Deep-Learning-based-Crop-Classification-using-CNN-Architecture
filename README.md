@@ -147,6 +147,7 @@ The training and validation accuracy and loss are plotted to monitor the model's
 ## Evaluation
 
 The model is evaluated on the test set to determine its accuracy. The evaluation metrics include accuracy and loss.
+<img src="./IMAGES/RESULT.png" alt="Prediction Image" width="500" height="500">
 
 ## Prediction
 
@@ -163,6 +164,9 @@ def predict(model, img):
 ## Results
 
 The results of the training process, including accuracy and loss plots, are displayed. Sample predictions on test images are also shown with actual and predicted labels along with confidence levels.
+
+<img src="./IMAGES/PREDICT.png" alt="Prediction Image" width="500" height="500">
+
 
 ## Contributing
 
