@@ -140,7 +140,7 @@ The model is trained with the following parameters:
 
 - **Channels:** 3 (RGB)
 
-- **Epochs:** 10
+- **Epochs:** 10    # Due to system compatibility issues, set EPOCHS to 10. Adjust as needed.                 
 
 The training and validation accuracy and loss are plotted to monitor the model's performance.
 
