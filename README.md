@@ -58,7 +58,6 @@ The dataset used in this project is stored in a directory structure where each s
 
 1\. **Load the dataset:**
 
-    ```python
 
     dataset = tf.keras.preprocessing.image_dataset_from_directory(
 
@@ -74,19 +73,12 @@ The dataset used in this project is stored in a directory structure where each s
 
     )
 
-    ```
-
 2\. **Split the dataset:**
-
-    ```python
 
     train_ds, val_ds, test_ds = get_dataset_partitions_tf(dataset)
 
-    ```
 
 3\. **Define and compile the model:**
-
-    ```python
 
     model = models.Sequential([
 
@@ -96,23 +88,16 @@ The dataset used in this project is stored in a directory structure where each s
 
     model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
-    ```
 
 4\. **Train the model:**
 
-    ```python
-
     history = model.fit(train_ds, validation_data=val_ds, epochs=10)
-
-    ```
 
 5\. **Evaluate the model:**
 
-    ```python
 
     scores = model.evaluate(test_ds)
 
-    ```
 
 ## Model Architecture
 
